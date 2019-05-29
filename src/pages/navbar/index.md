@@ -12,6 +12,6 @@ menuItems:
     linkURL: /meetups
   - label: DeckBuilderApp
     linkType: internal
-    linkURL: /DeckBuilderApp
+    linkURL: /deckbuilderhomepage
 ---
 

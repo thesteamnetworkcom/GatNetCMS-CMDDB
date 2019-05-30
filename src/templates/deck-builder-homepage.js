@@ -1,13 +1,11 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-export const DeckBuilderHomepageTemplate = () => {
-    return (
+export const DeckBuilderHomepageTemplate = () => (
         <React.Fragment>
             <span> HOLLLLLYYYYY SHIIIIITTTTT </span>
         </React.Fragment>>
-    );
-};
+);
 
 const DeckBuilderHomepagePage = ({ data }) => {
     const { mardownRemark: page, footerData, navbarData } = data;

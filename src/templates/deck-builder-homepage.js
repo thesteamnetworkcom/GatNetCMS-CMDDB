@@ -23,7 +23,7 @@ export default DeckBuilderHomepagePage;
 
 export const dbQuery = graphql`
     query DeckBuilderHomepagePage($id: String!){
-        mardownRemark(id: { eq: $id }){
+        markdownRemark(id: { eq: $id }){
             html
             frontmatter {
                 title

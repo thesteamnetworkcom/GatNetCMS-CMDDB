@@ -1,13 +1,13 @@
 backend:
   name: git-gateway
   accept_roles:
-      - TestRole
+      - Admin
   branch: master
 
 media_folder: static/img
 public_folder: /img
 
-display_url: https://gatsby-netlify-cms-example.netlify.com/
+display_url: https://infallible-beaver-a5e81f.netlify.com/
 
 collections:
   - name: "meetups"

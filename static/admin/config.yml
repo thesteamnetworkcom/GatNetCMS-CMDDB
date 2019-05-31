@@ -1,5 +1,7 @@
 backend:
   name: git-gateway
+  accept_roles:
+      - Admin
   branch: master
 
 media_folder: static/img
